@@ -1,0 +1,181 @@
+h2{font-size: 3em;
+    color: aliceblue;
+    
+}
+
+h5{
+    font-size: 2.3em;
+    
+    
+}
+
+ul{color: #723F0C;  
+  font-size: 1.5em;
+
+}
+
+
+
+body{
+    font-family: "montserrat" ,sans-serif;
+    background-color:#9D6333;
+    font-family: 'montserrat';
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+header{ 
+  display: flex;
+  min-height: 70px;
+  background-color: #9D5D3A;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    
+    }
+
+
+nav a:hover{
+    color: aquamarine;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+    
+
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+.imagen{
+    width: 350px;
+    height: 250px;
+    margin-left: 25px
+}
+  
+.columna1{
+    padding: 25px;
+    margin: 0 10px; 
+}
+
+
+.columna2{
+    padding: 25px;
+    margin: 0 3px;
+    color: white;
+}
+
+
+.video-contenedor{
+    width: 90%;
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.video-contenedor iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.form-register{
+   width: 400px;
+   background: #254A3A;
+   padding: 30px;
+   margin: auto;
+   margin-top: 100px;
+   border-radius: 4px;
+   font-family: 'montserrat';
+   color: white;
+   box-shadow: 7px 13px 37px #000;
+    
+}
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: #254A3A;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #B3F7D8;
+    font-family: 'montserrat';
+    font-size: 18px;
+}
+
+.form-register p {
+ height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-register a {
+ color: white;
+ text-decoration: underline;
+}
+
+.form-register .botons{
+    width: 100%;
+    background: #DC8105;
+    border: none;
+    padding: 12px; 
+    color: white; 
+    margin: 16px 0; 
+    font-size: 16px; 
+}
